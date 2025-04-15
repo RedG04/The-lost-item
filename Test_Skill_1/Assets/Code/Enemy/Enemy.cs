@@ -3,10 +3,10 @@ using UnityEngine;
 public class Enemy : Character
 {
     [Header("AI Settings")]
-    public float moveSpeed = 2f;
+    public new float moveSpeed = 2f;
     public float patrolRange = 3f;
     public float attackRange = 1.5f;
-    public int damage = 10;
+    public new int damage = 10;
     public float attackCooldown = 2f;
 
     private Vector2 startPos;

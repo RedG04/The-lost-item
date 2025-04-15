@@ -3,7 +3,6 @@ using UnityEngine;
 public class Player : Character
 {
     [Header("Player Settings")]
-    public float moveSpeed = 5f;
     public float jumpForce = 300f;
     public LayerMask groundLayer;
     public Transform groundCheck;

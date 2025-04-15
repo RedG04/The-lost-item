@@ -4,7 +4,7 @@ public class Ally : Character
 {
     [Header("Support Settings")]
     public float followDistance = 2f;
-    public float moveSpeed = 3f;
+    public new float moveSpeed = 3f;
     public float supportRange = 2f;
     public float healAmount = 10f;
     public float buffDuration = 5f;
